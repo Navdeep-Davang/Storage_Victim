@@ -6,7 +6,7 @@
 
 ## Audit Summary:
 
-The contract "StorageVictim" has been audited to identify potential security vulnerabilities and best practices adherence. The audit focused on the code's security, reliability, and adherence to industry-standard best practices. The following findings and recommendations were identified during the audit:
+The contract "StorageVictim_unsafe.sol" has been audited to identify potential security vulnerabilities and best practices adherence. The audit focused on the code's security, reliability, and adherence to industry-standard best practices. This contract is rewritten as "StorageVictim_safe.sol", with same logic and removing potential venerabilities.  The following findings and recommendations were identified during the audit:
 
 # Uninitialized Struct Pointer:
 
