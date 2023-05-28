@@ -1,0 +1,128 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "getStore",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "A contract to store user data with proper access control and security measures.",
+			"kind": "dev",
+			"methods": {
+				"constructor": {
+					"details": "Contract constructor."
+				},
+				"getOwner()": {
+					"details": "Get the owner's address.",
+					"returns": {
+						"_0": "The owner's address."
+					}
+				},
+				"getStore(address)": {
+					"details": "Get stored user data.",
+					"params": {
+						"_address": "The address of the user."
+					},
+					"returns": {
+						"_0": "The user's address and stored amount."
+					}
+				},
+				"store(uint256)": {
+					"details": "Store user data.",
+					"params": {
+						"_amount": "The amount to be stored."
+					}
+				}
+			},
+			"title": "StorageVictim",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StorageVictim_safe.sol": "StorageVictim"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StorageVictim_safe.sol": {
+			"keccak256": "0x09c05b9bd006d6fdc6a3cbcce4c2933400ff8dfd0367117bc9f2fbffb3278a6b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6346fdbf92e5142bd4ca1e4708694efeecea05aeb84391188fb830a026e868b6",
+				"dweb:/ipfs/QmW8TwfdaGARQyMWs2mh8QgCVgRp6qLUQscxVwaAxm6faK"
+			]
+		}
+	},
+	"version": 1
+}
